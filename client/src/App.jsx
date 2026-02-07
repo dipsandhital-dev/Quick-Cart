@@ -4,6 +4,7 @@ import Orders from './pages/Orders'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
 import Header from './components/shared/Header'
+import ButtonTab from './components/shared/BottomTab'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route  path= '/auth' element= {<Auth/>} />
         <Route path= '/orders' element= {<Orders/>} />
         </Routes>
+        <ButtonTab/>
      </Router>
      </>
   )
